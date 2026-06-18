@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light">
+
+  <title>Red Bull Spraydose Toxic</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  <header class="nav">
+    <button class="burger" aria-label="Menü öffnen">☰</button>
+    <img class="logo" src="Bilder/redbullcom-logo_double-with-text.svg" alt="Red Bull Logo" />
+    <nav>
+      <a href="#accessories">Accessories</a>
+      <a href="#tutorial">Tutorial</a>
+      <a href="#workshops">Workshops</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#story">Story</a>
+    </nav>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-head">
+      <button class="mobile-close" type="button" aria-label="Menü schließen">×</button>
+      <img class="logo" src="Bilder/redbullcom-logo_double-with-text.svg" alt="Red Bull Logo" />
+    </div>
+
+    <nav class="mobile-menu-nav" aria-label="Mobile Navigation">
+      <a href="#accessories">Accessories</a>
+      <a href="#tutorial">Tutorial</a>
+      <a href="#workshops">Workshops</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#story">Story</a>
+    </nav>
+  </div>
+
+  <div class="can-stage" id="canStage">
+    <img id="scrollCan" class="scroll-can" src="Spraydosen/Zielgruppe 2.png" alt="Spraydose" />
+  </div>
+<main>
+    <section id="hero" class="hero">
+      <div class="hero-bg"></div>
+      <div id="heroStart" class="hero-product-start" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Red Bull Spraydose</p>
+        <h1>Spraydose Wonder</h1>
+       <p class="hero-lead">"Farben entdecken. Ideen gestalten."</p>
+        <p > Die Kids Spray wurde speziell für junge Kreative entwickelt. Mit ihrer handlichen Größe, einfachen Bedienung und auswaschbaren Farben macht sie den Einstieg in die Welt der Street Art spielerisch und sicher.</p>
+        <a href="#features" class="btn">Zum Produkt</a>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="features-pin">
+        <div class="features-panel">
+          <div class="product-side">
+            <div id="redBox" class="red-box"></div>
+          </div>
+          <div class="feature-copy">
+            <p class="eyebrow">Eigenschaften</p>
+            <h2>Spraydose Wonder</h2>
+            <div class="feature-steps">
+              <article class="feature-step"><h3>Easy Control</h3><p>Die kompakte Dose liegt perfekt in kleinen Händen und ermöglicht ein kontrolliertes Sprühen für erste kreative Projekte.</p></article>
+              <article class="feature-step"><h3>Washable Colors</h3><p>Die wasserbasierte Farbe lässt sich leicht entfernen und eignet sich ideal für kreative Experimente auf dafür vorgesehenen Flächen.</p></article>
+              <article class="feature-step"><h3>Creative Fun</h3><p>Bunte Farben, spielerische Effekte und jede Menge Raum für Fantasie machen jede Session zu einem neuen Abenteuer.</p></article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="accessories" class="accessories">
+      <div class="section-head"><h2>Accessories</h2><div class="accessories-nav"><button class="acc-arrow acc-prev" aria-label="Zurück">←</button><button class="acc-arrow acc-next" aria-label="Weiter">→</button></div></div>
+      <div class="card-row">
+        <div class="product-card">
+          <h3>Easy Spray Cap</h3>
+        <img src="Assesoirs/7.png" alt="">
+          <button>Mehr Info</button>
+        </div>
+
+        <div class="product-card">
+          <h3>Farbverlauf Cap</h3>
+        <img src="Assesoirs/6.png" alt="">
+          <button>Mehr Info</button>
+        </div>
+
+        <div class="product-card">
+          <h3>Bubble Cap</h3>
+        <img src="Assesoirs/1.png" alt="">
+          <button>Mehr Info</button>
+        </div>
+
+         <div class="product-card">
+              <h3>Splash Cap</h3>
+        <img src="Assesoirs/2.png" alt="">
+          <button>Mehr Info</button>
+        </div>
+
+         <div class="product-card">
+                  <h3>Stencil Starter Set</h3>
+        <img src="Assesoirs/4.png" alt="">
+          <button>Mehr Info</button>
+        </div>
+
+         <div class="product-card">
+                 <h3>Masking Tape</h3>
+        <img src="Assesoirs/3.png" alt="">
+          <button>Mehr Info</button>
+        </div>
+
+         <div class="product-card">
+                   <h3>Kids Spray Gloves</h3>
+        <img src="Assesoirs/5.png" alt="">
+          <button>Mehr Info</button>
+        </div>
+
+       
+      </div>
+      <button class="mobile-more acc-more" type="button">Weitere anzeigen</button>
+    </section>
+
+    <section id="tutorial" class="tutorial">
+      <div><p class="eyebrow">Tutorial</p><h2>Tutorial zu<br />unseren Dosen</h2><p>Lerne spielerisch den Umgang mit verschiedenen Caps, Schablonen und Farben. Von lustigen Figuren bis zu bunten Schriftzügen – hier entstehen die ersten eigenen Kunstwerke.</p><a class="btn" href="#workshops">Weitere Infos</a></div>
+      <div class="video-box"><video autoplay muted loop playsinline preload="auto" poster="Videos/Sequenz 01_3.mp4"><source src="Videos/Sequenz 01_3.mp4" type="video/mp4" /></video></div>
+    </section>
+<section id="workshops" class="workshops">
+  <div class="section-head">
+    <h2>Workshops</h2>
+
+    <div class="workshop-nav">
+      <button class="workshop-arrow workshop-prev" aria-label="Zurück">←</button>
+      <button class="workshop-arrow workshop-next" aria-label="Weiter">→</button>
+    </div>
+  </div>
+
+  <div class="workshop-row">
+    <div class="event-card">
+      <img src="Workshop/6.png" alt="">
+      <h3>Kids Spray Workshop - Berlin</h3>
+      <p>16. - 17. Mai 2026</p> <br>
+      <b>Competition</b>
+    </div>
+
+    <div class="event-card">
+      <img src="Workshop/1.png" alt="">
+      <h3>Kids Design Workshop - Hamburg</h3>
+      <p>20. Mai 2026</p>
+      <b>Workshop</b>
+    </div>
+
+    <div class="event-card">
+      <img src="Workshop/8.png" alt="">
+      <h3>Graffity Basics für Kids - München </h3>
+      <p>28. Mai 2026</p>
+      <b>Event</b>
+    </div>
+
+    <div class="event-card">
+      <img src="Workshop/4.png" alt="">
+      <h3>Stencil & Design Workshop - Leipzig</h3>
+      <p>02. Juni 2026</p>
+      <b>Workshop</b>
+    </div>
+
+    <div class="event-card">
+      <img src="Workshop/5.png" alt="">
+      <h3>Kids Urban Artwork Workshop - Köln</h3>
+      <p>09. Juni 2026</p> 
+      <b>Jam</b>
+    </div>
+
+    <div class="event-card">
+      <img src="Workshop/7.png" alt="">
+      <h3>Kids Art Jam - München</h3>
+      <p>09. Juni 2026</p>
+      <b>Jam</b>
+    </div>
+
+    <div class="event-card">
+      <img src="Workshop/2.png" alt="">
+      <h3>Kids Spray Workshop - Düsseldorf</h3>
+      <p>15. Juni 2026</p>
+      <b>Masterclass</b>
+    </div>
+  </div>
+
+</section>
+   
+<section id="gallery" class="gallery"><h2>Art-Gallery</h2>
+     <div class="gallery-grid">
+
+  <div class="gallery-card g1">
+    <img src="Gallery/1.png" alt="">
+  </div>
+
+  <div class="gallery-card g2">
+    <img src="Gallery/2.png" alt="">
+  </div>
+
+  <div class="gallery-card g3">
+    <img src="Gallery/3.png" alt="">
+  </div>
+
+  <div class="gallery-card g4">
+    <img src="Gallery/4.png" alt="">
+  </div>
+
+  <div class="gallery-card g5">
+    <img src="Gallery/5.png" alt="">
+  </div>
+
+  <div class="gallery-card g6">
+    <img src="Gallery/6.png" alt="">
+  </div>
+  </div>
+
+  <button class="outline-btn gallery-more">Mehr anzeigen</button>
+</section>
+</section>
+
+<section id="story" class="story">
+  <div class="story-slide is-active" style="background-image:url('Story/2.png')"></div>
+  <div class="story-slide" style="background-image:url('Story/1.png')"></div>
+  <div class="story-slide" style="background-image:url('Story/5.png')"></div>
+
+  <div class="story-content">
+    <h2>Unsere Story</h2>
+    <h3>"Kreativität verbindet Menschen."</h3> <br>
+
+<p>Unsere Spraydosen wurden entwickelt, um Ideen sichtbar zu machen – von den ersten kreativen Schritten bis zu ambitionierten Kunstprojekten. Unterschiedliche Produkte für unterschiedliche Stile, aber immer mit dem gleichen Ziel: kreative Freiheit ohne Grenzen.</p>
+    <a class="btn" href="#">Zur Story</a>
+  </div>
+</section>
+
+<section class="footer-splash-band" aria-hidden="true">
+  <img src="Bilder/SplashFooter.png" alt="">
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <p>Produkte & Unternehmen<br />Red Bull Shop<br />Jobs<br />Medien</p>
+    <p>Cookie Einstellungen<br />Datenschutzrichtlinien<br />AGB<br />Impressum</p>
+    <p>Red Bull Support und Kontakt<br />Barrierefreiheit<br />Karriere</p>
+  </div>
+</footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
